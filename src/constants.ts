@@ -88,3 +88,23 @@ export const CODE_SNIPPETS = [
   "async function getData() {",
   "const config = require(\"./config\");"
 ];
+
+export const LEFT_HAND_WORDS = [
+  "as", "at", "be", "get", "we", "after", "base", "case", "date", "face", "gate", "race", "safe", "test", "vast", "west", "area", "care", "dear", "east", "fact", "gave", "read", "very", "want", "water", "state", "street", "tree", "seed", "feed", "beef", "beer", "best", "better", "bread", "break", "card", "cat", "car", "craft", "create", "crew", "data", "dead", "debt", "deer", "desk", "dress", "draw", "drive", "ear", "eat", "egg", "ever", "extra", "fast", "fear", "feet", "few", "fire", "free", "fresh", "gear", "grass", "great", "green", "red", "rest", "save", "sea", "seat", "secret", "serve", "set", "star", "start", "stay", "step", "sweet", "table", "tax", "tea", "tear", "trade", "treat", "view", "war", "was", "waste", "wave", "wear", "weather", "week", "were", "wet", "what", "where", "white", "wife", "write", "stead", "fade", "cab", "deed", "debt", "dart", "darts", "fewer", "fever", "facet", "faces", "fact", "facts", "farce", "fears", "feast", "feeds", "feels", "ferret", "fests", "fetal", "fever", "fewer", "fiber", "field", "fiery", "fifth", "fifty", "fight", "files", "filed", "fills", "films", "final", "finds", "fined", "fines", "finis", "fired", "fires", "first", "fishy", "fixed", "fixes", "flair", "flake", "flaky", "flame", "flank", "flare", "flash", "flask", "flatly", "flats", "flaws", "fleas", "fleck", "fleet", "flesh", "flick", "flied", "flies", "fling", "flint", "flips", "flirt", "float", "flock", "flogs", "flood", "floor", "flops", "flora", "floss", "flour", "flows", "flown", "flubs", "flues", "fluff", "fluid", "fluke", "fluky", "flume", "flung", "flunk", "flush", "flute", "flyer", "foals", "foams", "foamy", "focal", "focus", "foggy", "foils", "foist", "folds", "folio", "folks", "folly", "fonts", "foods", "fools", "foots", "force", "fords", "forge", "forgo", "forks", "forms", "forte", "forth", "forts", "forty", "forum", "fouls", "found", "fount", "fours", "fovea", "fowls", "foxed", "foxes", "foyer", "frail", "frame", "franc", "frank", "fraud", "frays", "freak", "freed", "freer", "frees", "fresh", "frets", "friar", "fried", "fries", "frill", "frisk", "frizz", "frock", "frogs", "frond", "front", "frost", "froth", "frown", "froze", "fruit", "frump", "fryer", "fudge", "fuels", "fugal", "fugue", "fulls", "fully", "fumed", "fumes", "funds", "fungi", "fungo", "funks", "funky", "funny", "furls", "furry", "furze", "fused", "fuses", "fussy", "fusty", "futon", "fuzzy"
+].filter(w => /^[qwertadsfgzxcvb]+$/i.test(w));
+
+export const RIGHT_HAND_WORDS = [
+  "hi", "in", "no", "on", "up", "him", "hop", "ion", "joy", "lip", "nil", "oil", "pin", "you", "only", "look", "now", "how", "our", "my", "poly", "monk", "hulk", "milk", "link", "pink", "junk", "hook", "hookup", "onion", "opinion", "union", "million", "minimum", "humph", "nylon", "nymph", "opium", "plump", "plum", "pump", "puppy", "pupil", "unholy", "unhook", "unpin", "uphill", "upon", "yummy", "jump", "hill", "mon", "hump", "look", "holy", "hook", "hull", "hymn", "join", "kill", "knoll", "kook", "limp", "lion", "loin", "look", "loom", "loon", "loop", "lump", "lung", "milk", "mill", "milo", "mink", "mono", "moon", "mull", "mump", "noon", "oily", "only", "onyx", "opium", "phon", "pill", "pimp", "pink", "pion", "plum", "poly", "pool", "poon", "poop", "pull", "pulp", "pump", "puny", "pupa", "upup", "yoyo", "yuko", "yulu"
+].filter(w => /^[yuiophjklnm]+$/i.test(w));
+
+export const LEFT_HAND_PATTERNS = [
+  "asdf", "fdsa", "qwer", "rewq", "zxcv", "vcxz", "asdfg", "gfdsa", "qwert", "trewq", "zxcvb", "bvcxz",
+  "aaaa", "ssss", "dddd", "ffff", "gggg", "qqqq", "wwww", "eeee", "rrrr", "tttt", "zzzz", "xxxx", "cccc", "vvvv", "bbbb",
+  "asas", "dfdf", "qwqw", "erer", "zxzx", "cvcv"
+];
+
+export const RIGHT_HAND_PATTERNS = [
+  "hjkl", "lkjh", "yuio", "oiuy", "nm", "mn", "yuiop", "poiuy", "hjkl", "lkjh",
+  "yyyy", "uuuu", "iiii", "oooo", "pppp", "hhhh", "jjjj", "kkkk", "llll", "nnnn", "mmmm",
+  "hjhj", "klkl", "yuyu", "ioio", "nmnm"
+];
